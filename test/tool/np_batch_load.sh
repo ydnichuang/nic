@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# batch load test
+/root/nic/doe_tool -o 0x24 -t 0 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+/root/nic/doe_tool -o 0x24 -t 1 -I remap_index.txt -O np_remap_tbl.txt -e 8 -c 64
+/root/nic/doe_tool -o 0x24 -t 3 -I state_index.txt -O np_state_tbl.txt -e 8 -c 64
+/root/nic/doe_tool -o 0x24 -t 4 -I sqc4_index.txt -O np_sqc4_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 5 -I sqc5_index.txt -O np_sqc5_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 6 -I sqc6_index.txt -O np_sqc6_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 7 -I sqc7_index.txt -O np_sqc7_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 8 -I sqc8_index.txt -O np_sqc8_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 9 -I rqc9_index.txt -O np_rqc9_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 10 -I rqc10_index.txt -O np_rqc10_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 11 -I rqc11_index.txt -O np_rqc11_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 12 -I rqc12_index.txt -O np_rqc12_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 13 -I rqc13_index.txt -O np_rqc13_tbl.txt -e 132 -c 8
+/root/nic/doe_tool -o 0x24 -t 14 -I sqs4_index.txt -O np_sqs4_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 15 -I sqs5_index.txt -O np_sqs5_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 16 -I sqs6_index.txt -O np_sqs6_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 17 -I sqs7_index.txt -O np_sqs7_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 18 -I sqs8_index.txt -O np_sqs8_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 19 -I rqs9_index.txt -O np_rqs9_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 20 -I rqs10_index.txt -O np_rqs10_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 21 -I rqs11_index.txt -O np_rqs11_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 22 -I rqs12_index.txt -O np_rqs12_tbl.txt -e 68 -c 8
+/root/nic/doe_tool -o 0x24 -t 23 -I rqs13_index.txt -O np_rqs13_tbl.txt -e 68 -c 8
+#./root/nic/doe_tool -o 0x24 -t 24 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 25 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 26 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 27 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 28 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 29 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 30 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 31 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 32 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+#./root/nic/doe_tool -o 0x24 -t 33 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+/root/nic/doe_tool -o 0x24 -t 50 -I mpt_index.txt -O np_mpt_tbl.txt -e 36 -c 1024
+#./root/nic/doe_tool -o 0x24 -t 51 -I mac_index.txt -O np_mac_tbl.txt -e 12 -c 32
+/root/nic/doe_tool -o 0x24 -t 52 -I avt_index.txt -O np_avt_tbl.txt -e 68 -c 1024
+/root/nic/doe_tool -o 0x24 -t 60 -I cqc_index.txt -O np_cqc_tbl.txt -e 36 -c 128
+#./root/nic/doe_tool -o 0x24 -t 61 -I nqc_index.txt -O np_nqc_tbl.txt -e 36 -c 1

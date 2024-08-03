@@ -1,0 +1,1 @@
+cmd_/home/wangyf/test/kernel_call_test/Module.symvers := sed 's/\.ko$$/\.o/' /home/wangyf/test/kernel_call_test/modules.order | scripts/mod/modpost -m -a  -o /home/wangyf/test/kernel_call_test/Module.symvers -e -i Module.symvers -i /home/zhoumc/generic_nic_framwork/linux_kernel/Module.symvers   -T -

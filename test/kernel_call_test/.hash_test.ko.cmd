@@ -1,0 +1,1 @@
+cmd_/home/wangyf/test/kernel_call_test/hash_test.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/wangyf/test/kernel_call_test/hash_test.ko /home/wangyf/test/kernel_call_test/hash_test.o /home/wangyf/test/kernel_call_test/hash_test.mod.o;  true
