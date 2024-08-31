@@ -1,0 +1,30 @@
+Dependencies for Project 'rdma', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\main.c)(0x65FBFC98)(-c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -I .\src-I.\RTE\CMSIS-I.\RTE\CMSIS_Driver-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.0\emWin\Include-D__UVISION_VERSION="523" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (src\yib_inc_base.h)(0x65FBFD30)
+I (src\os/fw.h)(0x65FBFD87)
+I (src\yib_inc_fw.h)(0x65FAC62B)
+I (src\yib_inc_hw.h)(0x65FAC62B)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\ARM\irq_cm3.s)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_delay.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_evflags.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_evr.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_kernel.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_lib.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_memory.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_mempool.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_msgqueue.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_mutex.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_semaphore.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_system.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_thread.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS2\RTX\Source\rtx_timer.c)(0x58984992)()
+F (RTE\CMSIS\RTX_Config.c)(0x58984990)()
+F (RTE\CMSIS\RTX_Config.h)(0x58984990)()
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.0\FileSystem\Driver\NAND\NAND_MemBus.c)(0x5350D4A4)()
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.0\USB\Driver\USART_PL2303.c)(0x5892A18E)()
+F (RTE\CMSIS_Driver\NAND_MemBus_Config.h)(0x5350D4A4)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x58984992)()
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x58984992)()
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.0\emWin\Lib\ARM\GUI_CM3_L.lib)(0x580EB1D6)()
+F (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.0\emWin\Sample\GUI_X\GUI_X_RTE.c)(0x580EB226)()
+F (RTE\Graphics\GUIConf.c)(0x580EB1D6)()
